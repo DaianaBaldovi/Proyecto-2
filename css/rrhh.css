@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 @media (max-width: 576px) { body {background-color: rgb(206, 217, 255);}
 }
 
