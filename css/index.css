@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +19,41 @@
 }
 
 
-.titulo h1 {font-family: 'Dancing Script', cursive;
+div.caja_header { background-color: white;
+    height: 100%;
+    width: 100%;
+}
 
+div.logo img { display: inline;
+    width: 150px;
+}
+
+ul.horizontal {  
+    display: inline;
+    position: relative;
+    top: 2%;
 
 }
+
+ul.horizontal li{
+    display:inline-flex;
+    float:right;
+    padding:0 10px;
+    }
+
+
+h1.titulo {font-family: 'Playfair Display', serif;
+    text-align: center;color: blue;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+
+
+
+footer {font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin: bottom 15px;
+    }

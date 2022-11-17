@@ -16,3 +16,11 @@
 
 @media (min-width: 1200px) { body {background-color: rgb(206, 217, 255);}
 }
+
+
+
+footer {font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+    margin: bottom 15px;
+    }
