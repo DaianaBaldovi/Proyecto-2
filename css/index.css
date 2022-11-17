@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,4 +16,10 @@
 }
 
 @media (min-width: 1200px) { body {background-color: rgb(206, 217, 255);}
+}
+
+
+.titulo h1 {font-family: 'Dancing Script', cursive;
+
+
 }
