@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     margin: 0;
@@ -6,51 +7,108 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-@media (max-width: 576px) { body {background-color: rgb(206, 217, 255);}
+@media (min-width: 576px) { body {background-color: rgb(206, 217, 255);}
 }
 
-@media (max-width: 768px) { body {background-color: rgb(206, 217, 255);}  
+@media (min-width: 768px) { body {background-color: rgb(206, 217, 255);}  
 }
 
-@media (max-width: 992px) { body {background-color: rgb(206, 217, 255);}
+@media (min-width: 992px) { body {background-color: rgb(206, 217, 255);}
 }
 
 @media (min-width: 1200px) { body {background-color: rgb(206, 217, 255);}
 }
 
 
-div.caja_header { background-color: white;
-    height: 100%;
-    width: 100%;
+div.caja_header { background-color: rgba(8, 23, 240, 0.37);
+    height: 150px;
+    width: 1280px;
 }
 
 div.logo img { display: inline;
+    height: 150px;
     width: 150px;
+
 }
 
 ul.horizontal {  
     display: inline;
     position: relative;
-    top: 2%;
+    bottom: 40px;
+    list-style-type: none;
 
 }
 
 ul.horizontal li{
-    display:inline-flex;
-    float:right;
-    padding:0 10px;
+    display:inline;
+    padding: 10px;
+    float: right;
     }
 
+a:hover {color: white;
+
+}
 
 h1.titulo {font-family: 'Playfair Display', serif;
-    text-align: center;color: blue;
+    text-align: center;
+    color: blue;
     text-decoration: underline;
     margin-bottom: 5px;
     margin-top: 15px;
 }
 
+h2.presentacion {
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    font-style:oblique;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
+img.sinergia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    border: 5px;
+    border-color: black;
+}
 
+h3 {font-family: 'Lobster', cursive;
+
+}
+
+p.explicacion {text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+form {width: 150px;
+    max-width: 600px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+h4.ubicacion { text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+}
+address {margin-top: 15px;
+    margin-bottom: 30px;
+}
 
 footer {font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
